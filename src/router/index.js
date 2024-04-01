@@ -37,6 +37,12 @@ const router = createRouter({
       name: 'crView',
       component: () => import('../views/CrView.vue')
     }
+    ,
+    {
+      path: '/listView',
+      name: 'listView',
+      component: () => import('../views/ListView.vue')
+    }
   ]
 })
 

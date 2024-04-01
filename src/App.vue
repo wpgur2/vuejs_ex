@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/reactivity">reactivity</RouterLink>
         <RouterLink to="/computed">computed</RouterLink>
         <RouterLink to="/crView">crView</RouterLink>
+        <RouterLink to="/listView">listView</RouterLink>
       </nav>
     </div>
   </header>
@@ -86,4 +87,9 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+.layout{
+    padding:20px;
+    border-top: 2px solid #ccc;
+    margin-top: 40px;
+  }
 </style>
