@@ -18,6 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/computed">computed</RouterLink>
         <RouterLink to="/crView">crView</RouterLink>
         <RouterLink to="/listView">listView</RouterLink>
+        <RouterLink to="/event">Event Handling</RouterLink>
       </nav>
     </div>
   </header>
