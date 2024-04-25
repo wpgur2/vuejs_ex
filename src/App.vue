@@ -19,6 +19,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/crView">crView</RouterLink>
         <RouterLink to="/listView">listView</RouterLink>
         <RouterLink to="/event">Event Handling</RouterLink>
+        <RouterLink to="/form">Form input binding</RouterLink>
+        <RouterLink to="/LifeCycle">life cycle</RouterLink>
       </nav>
     </div>
   </header>
