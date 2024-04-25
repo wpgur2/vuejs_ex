@@ -23,7 +23,7 @@ export default{
 </script>
 <template>
   {{ console.log('템플릿 컴파일 시작') }}
-  <div class="about">
+  <div class="layout">
     <h1>This is an LifeCycle</h1>
     <button @click="count++">+</button>
     <div id="counter">{{ count }}</div>
@@ -33,7 +33,7 @@ export default{
 
 <style>
 @media (min-width: 1024px) {
-  .about {
+  .layout {
     min-height: 100vh;
     display: flex;
     align-items: center;

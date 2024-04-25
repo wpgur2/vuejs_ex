@@ -26,7 +26,7 @@ export default{
 }
 </script>
 <template>
-  <div class="about">
+  <div class="layout">
     <h1>This is Form input binding</h1>
     <h2>텍스트</h2>
     <input type="text" :value="message" @input="event=>message=event.target.value">
@@ -113,7 +113,7 @@ export default{
 
 <style>
 @media (min-width: 1024px) {
-  .about {
+  .layout {
     min-height: 100vh;
     display: flex;
     align-items: center;
