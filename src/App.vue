@@ -23,6 +23,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/LifeCycle">life cycle</RouterLink>
         <RouterLink to="/watchers">watchers</RouterLink>
         <RouterLink to="/refs">refs</RouterLink>
+        <RouterLink to="/comp_basic">comp_basic</RouterLink>
       </nav>
     </div>
   </header>
